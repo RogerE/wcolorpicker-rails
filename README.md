@@ -1,29 +1,22 @@
-# Wcolorpicker::Rails
+# Websanova Color Picker for Rails
 
-TODO: Write a gem description
+This gem vendors the Websanova Color Picker jQuery plugin assets for Rails 3.1 and greater.
+The files will be added to the asset pipeline and available for you to use.
+
+For info on how to use the plugin see the original documentation:
+
+[Websanova Color Picker](http://www.websanova.com/plugins/websanova/color-picker)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+In your Gemfile, add this line:
 
     gem 'wcolorpicker-rails'
 
-And then execute:
+You can include it by adding the following to your javascript file:
 
-    $ bundle
+    //= require wcolorpicker
 
-Or install it yourself as:
+And to the css file:
 
-    $ gem install wcolorpicker-rails
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    *= require wcolorpicker
