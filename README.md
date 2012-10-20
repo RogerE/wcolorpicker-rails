@@ -9,7 +9,7 @@ For info on how to use the plugin see the original documentation:
 
 Praise for creating this tool should of course be directed at [Websanova](http://www.websanova.com/)!
 
-For the orignal javascript and css file go to their [Github repository](https://github.com/websanova/wColorPicker)
+For the orignal javascript and css file go to their [Github repository](https://github.com/websanova/wColorPicker).
 
 ## Usage
 

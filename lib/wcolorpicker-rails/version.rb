@@ -1,5 +1,5 @@
 module Wcolorpicker
   module Rails
-    VERSION = "1.2"
+    VERSION = "1.2.2"
   end
 end
