@@ -13,7 +13,7 @@ In your Gemfile, add:
 
 ```ruby
 group :assets do
-  gem 'jquery-ui-rails'
+  gem 'wcolorpicker-rails'
 end
 ```
 
