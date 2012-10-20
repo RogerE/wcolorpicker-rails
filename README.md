@@ -7,16 +7,26 @@ For info on how to use the plugin see the original documentation:
 
 [Websanova Color Picker](http://www.websanova.com/plugins/websanova/color-picker)
 
-## Installation
+## Usage
 
-In your Gemfile, add this line:
+In your Gemfile, add:
 
-    gem 'wcolorpicker-rails'
+```ruby
+group :assets do
+  gem 'jquery-ui-rails'
+end
+```
 
 You can include it by adding the following to your javascript file:
 
-    //= require wcolorpicker
+```javascript
+//= require wcolorpicker
+```
 
 And to the css file:
 
-    *= require wcolorpicker
+```css
+/*
+ *= require wcolorpicker
+ */
+```
