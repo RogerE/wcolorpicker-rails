@@ -16,21 +16,19 @@ For the orignal javascript and css files go to their [Github repository](https:/
 In your Gemfile, add:
 
 ```ruby
-group :assets do
-  gem 'wcolorpicker-rails'
-end
+gem 'wcolorpicker-rails'
 ```
 
 You can include it by adding the following to your javascript file:
 
 ```javascript
-//= require wcolorpicker
+//= require wColorPicker.min
 ```
 
 And to the css file:
 
 ```css
 /*
- *= require wcolorpicker
+ *= require wColorPicker.min
  */
 ```
